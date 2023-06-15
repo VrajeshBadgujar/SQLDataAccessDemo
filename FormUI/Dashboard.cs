@@ -26,7 +26,7 @@ namespace FormUI
             EmployeeFoundList.DisplayMember = "FullInfo";
 
         }
-
+        
         private void SearchButton_Click(object sender, EventArgs e)
         {
            DataAccess db = new DataAccess();
@@ -37,7 +37,7 @@ namespace FormUI
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void InsertRecordButton_Click(object sender, EventArgs e)
